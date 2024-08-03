@@ -1,0 +1,12 @@
+.form-label{
+  color: #1abc9c;
+  margin-bottom: 7px;
+  position: relative;
+  top: 40px;
+  transition: all 0.5s;
+}
+
+input:focus {
+ box-shadow: none;
+ outline: none;
+}

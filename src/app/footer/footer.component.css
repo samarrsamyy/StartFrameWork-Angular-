@@ -1,0 +1,10 @@
+.footer{
+  padding:40px
+}
+
+.icons i{
+margin-inline: 4px;
+padding: 10px;
+border: 0.8px solid #fff;
+border-radius: 50px;
+}

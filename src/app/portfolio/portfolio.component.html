@@ -1,0 +1,27 @@
+<section class="portfolio  d-flex align-items-center justify-content-center flex-column pt-4 mb-4">
+  <div class="container text-center">
+
+   <app-title class="text-navy"> portfolio component</app-title>
+   
+    <div class="row g-5">
+
+      @for (img of imgList; track $index) {
+        <div class="col col-12 col-md-6 col-lg-4">
+          <app-card [image]="img"> </app-card>
+        </div>
+      }
+      @for (img of imgList; track $index) {
+        <div class="col col-12  col-md-6 col-lg-4">
+          <app-card [image]="img"> </app-card>
+        </div>
+      }
+
+    
+      
+    </div>
+    <div class="image d-none" id="outter-layer" (click)="hideImage()">
+      <img src="" alt="">
+
+    </div>
+  </div>
+</section>

@@ -1,0 +1,9 @@
+<label #myLabel [for]="input.name" class="form-label"> {{ input.name }}:</label>
+<input #myInput
+  [type]="input.type"
+  class="form-control border-0 border-bottom py-3 position-relative"
+  [id]="input.name"
+  [placeholder]="input.name"
+  [name]="input.name"
+  (input)="onFireEvent()"
+/>

@@ -1,0 +1,9 @@
+.btn:hover {
+  background-color: #1abc9c;
+}
+
+@media (max-width: 576px) {
+  form {
+    width: 100% !important;
+  }
+}

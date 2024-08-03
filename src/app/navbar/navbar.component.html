@@ -1,0 +1,24 @@
+<section>
+  <nav class="navbar navbar-expand-lg bg-main py-4 fixed-top"  [ngClass]="{'py-4':!isScrolled, 'py-2': isScrolled}">
+    <div class="container text-uppercase ">
+      <a class="navbar-brand fw-bolder text-white fs-2" routerLink="">start framework</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+          <li class="nav-item me-3">
+            <a class="nav-link text-white text-uppercase fw-bold mt-3 mt-md-0 px-2" routerLink="about" routerLinkActive="bg-main-green rounded-3">about</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link text-white text-uppercase fw-bold mt-3 mt-md-0 px-2" routerLink="portfolio" routerLinkActive="bg-main-green rounded-3">portfolio</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link text-white text-uppercase fw-bold mt-3 mt-md-0 px-2" routerLink="contact" routerLinkActive="bg-main-green rounded-3">contact</a>
+          </li>
+         
+        </ul>
+      </div>
+    </div>
+  </nav>
+</section>

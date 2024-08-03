@@ -1,0 +1,15 @@
+.layer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  inset: 0;
+  background-color: #1abc9ce6;
+  opacity: 0;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.card .layer:hover{
+  opacity: 1;
+}

@@ -1,0 +1,14 @@
+<section class="contact mb-4 pt-4">
+  <div class="container text-center">
+    <app-title class="text-navy"> conatct section</app-title>
+
+    <form class="p-3 mx-auto mt-5 text-start w-50">
+      @for (input of inputList; track $index) {
+
+     <app-input [input]="input" ></app-input>
+      }
+
+      <button class="btn bg-main-green mt-4 text-white">Send Message</button>
+    </form>
+  </div>
+</section>
